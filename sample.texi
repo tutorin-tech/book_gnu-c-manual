@@ -162,7 +162,7 @@ main (int argc, char *argv[])
 @}
 
 
-
+
 /* Print help info.  This long message is split into
    several pieces to help translators be able to align different
    blocks and identify the various pieces.  */
@@ -206,7 +206,7 @@ Report bugs to <%s>.\n"), PACKAGE_BUGREPORT);
 @}
 
 
-
+
 /* Print version and copyright information.  */
 
 static void
