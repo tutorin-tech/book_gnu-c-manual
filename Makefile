@@ -43,6 +43,9 @@ gnu-c-manual.info: $(GNU_C_MANUAL_SOURCES)
 gnu-c-manual.html: $(GNU_C_MANUAL_SOURCES)
 	$(MAKEINFO) --html --no-split gnu-c-manual.texi
 
+gnu-c-manual.epub:
+	texi2any gnu-c-manual.texi --epub3 --css-include=gnu-c-manual.css
+
 clean:
 	$(RM) $(CLEANFILES)
 

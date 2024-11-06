@@ -1,0 +1,9 @@
+* {
+    white-space: normal;
+    word-break: break-word;
+}
+
+pre {
+    font-size: 0.98em;
+    white-space: pre-wrap;
+}
